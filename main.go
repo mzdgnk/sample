@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/common-nighthawk/go-figure"
+	"github.com/mzdgnk/sample/pkg"
 )
 
 func main() {
 	fmt.Println("sample")
-	figure.NewFigure("sample", "", true).Print()
+	pkg.Print()
 }
 
 
